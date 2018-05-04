@@ -4,7 +4,12 @@
 Left-pads a string, obviously.
 """
 
-__all__ = ('leftpad',)
+__all__ = ('leftpad', '__version__', '__license__',
+           '__author__')
+
+__author__ = '404'
+__license__ = 'WTFPL'
+__version__ = '1.0.0a1'
 
 
 def leftpad(string: str, target_length: int) -> str:
